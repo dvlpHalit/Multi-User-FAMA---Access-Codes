@@ -79,18 +79,6 @@ part = 'tab2';   run_kume_h        % Table 2
 | Table 8, tail error of the reduction | `run_kume_e`, parts `wstail` and `domfield` | `kume_e_wstail.mat`, `kume_e_domfield.mat` |
 | Numbers in Sections VI and VII | `collect_results_core.m` and the drivers above | — |
 
-## Revision steps and reviewer comments
-
-| Step | Script | Reviewer comments | Topic and location in the revised paper |
-|---|---|---|---|
-| A | `run_kume_a.m` | R1.2, R2.1 | composite fading against a per-port Nakagami-*m* field (Section VII) |
-| B | `run_kume_b.m` | R1.4, R2.3 | look-count bracket of the block floor (Section IV-B, Appendix C-A) |
-| C | `run_kume_c.m` | R1.5, R2.4, R3.5 | floor diversity order on the correlated field (Section IV-C, Appendix C-C, Fig. 5) |
-| D | `run_kume_d.m` | R1.6, R2.2 | interference-aware LMMSE training and the training-limited floor (Section IV-D, (22)–(23)) |
-| E | `run_kume_e.m` | R1.3, R1.8, R2.6, R3.6 | reference estimator, tail error of the reduction (Appendix B, Table 8), Figs. 2–5 |
-| F | `run_kume_f.m` | R2.5 | heterogeneous emitters: calibration (29), texture-aware floor (30), multi-texture floor (Table 6) |
-| G | `run_kume_g.m` | R1.1, R3.1, R3.4 | copula corrections and existing analyses on one field (Section V-B, Table 7) |
-| H | `run_kume_h.m` | R1.7 | interference-sensing selector (Section VI-B, Tables 2 and 5) |
 
 ## Labels in the code
 
